@@ -1,0 +1,32 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.4)  27 JAN 2025 12:07
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\def\topic{\'Algebra Lineal} \def\quiz{1} \expandafter\def\csname question1 \
+endcsname{Grafique la operaci\'on resultante en cada caso, siendo $\vec v=(1,2)
+$ y $\vec w=(4,0)$. \begin{enumerate} \item $3\vec v$ \item $-2\vec v$ \item $\
+frac12\vec v$ \item $\vec v + \vec v$ \item $3\vec v - \vec v$ \item $\vec v + 
+\vec w$ \item $\vec v + 2\vec w$ \item $\vec v - \vec w$ \item $3 ( \vec v + \v
+ec w )$ \end{enumerate}} \expandafter\def\csname question2 \endcsname{Grafique 
+la operaci\'on resultante en cada caso, siendo $\vec v=(1,2)$ y $\vec w=(4,0)$.
+ \begin{enumerate} \item $3\vec v$ \item $-2\vec v$ \item $\frac12\vec v$ \item
+ $\vec v + \vec v$ \item $3\vec v - \vec v$ \item $\vec v + \vec w$ \item $\vec
+ v + 2\vec w$ \item $\vec v - \vec w$ \item $3 ( \vec v + \vec w )$ \end{enumer
+ate}} \input{topics/linear_algebra/layout.tex}
+! Emergency stop.
+<read *> 
+         
+<*> ...}} \input{topics/linear_algebra/layout.tex}
+                                                  
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 18 strings out of 473254
+ 427 string characters out of 5697443
+ 390923 words of memory out of 5000000
+ 23328 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 15i,0n,26p,882b,18s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

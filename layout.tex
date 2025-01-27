@@ -1,0 +1,28 @@
+\documentclass{article}
+
+% Imports.
+\usepackage{amsmath}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{enumitem}
+\usepackage{forloop}
+\usepackage{tikz}
+
+\begin{document}
+\begin{center}
+{\Large \textbf{Quiz \quiz: \topic}}
+\end{center}
+
+\newcounter{x}
+\begin{enumerate}
+\forloop{x}{1}{\value{x} > 0}
+{
+\ifcsname question\arabic{x} \endcsname
+\item \csname question\arabic{x} \endcsname
+\else
+\setcounter{x}{-1}
+\fi
+}
+\end{enumerate}
+\end{document}
